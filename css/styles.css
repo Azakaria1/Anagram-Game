@@ -1,0 +1,117 @@
+
+.box{
+    width: 300px ;
+    padding: 40 px;
+    position: absolute;
+     top: 70%;
+     left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f4e24425;
+background: url("div.jpg")
+no-repeat top left;
+    text-align: center;
+}
+.box input[type = "text"], .box input[type = "password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto ;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 30px ;
+    width: 200px;
+    outline: none;
+    color: rgb(20, 20, 20);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box input[type = "text"]:focus, .box input[type = "password"]:focus
+{
+    border-color: #2ecc71;
+}
+.box input[type ="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db ;
+    padding: 14px 40px;
+    outline: none;
+    color: rgb(19, 18, 18); 
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box input[type ="submit"]:hover{
+   background: #2ecc71;
+}
+div#box div{
+	display: inline-block;
+	width: 48%;
+}
+div#box div.left{
+	background-color: yellow;
+	vertical-align: top;
+}
+div#box div.right{
+	background-color: green;
+ }
+ u.title{
+	color: #000000;
+}
+p.titre{
+	color:#278E81;
+}
+h3{
+	font-size: 30px;
+
+}
+span{
+	padding-left: 180px;
+}
+
+nav.menu1 ul li.btn{
+	list-style-type: none; 
+display: inline-block;
+
+}
+nav.menu1 ul li.btn a{
+	color: #e1450f	;
+	text-decoration: none;
+	padding: 10px;
+}
+nav.menu1 ul li.btn a:hover{
+   color: blue;
+transition: 0.5s;
+}
+a:hover{
+	color: red;
+transition: 0.5s;
+}
+footer{
+	background-color: #00ffff;
+}
+strong{
+	font-size: 24px;
+
+	color: red;
+}
+h2{
+	color: #254985;
+	padding-left: 55px;
+}
+h1{
+	font-size: 40px;
+	padding: 25px;
+	padding-left: 500px;
+}
+a{
+	color: blue;
+	font-weight: bolder;
+}
+p.contacts{
+	padding-left: 25px;
+	font-weight: bold;
+}
